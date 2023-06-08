@@ -1,8 +1,8 @@
 # andry-bigdata-visual
 
-## Project setup
+## Project setup(npm6.x版本后加上--legacy-peer-deps)
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Compiles and hot-reloads for development
