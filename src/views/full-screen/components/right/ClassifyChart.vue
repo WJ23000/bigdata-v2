@@ -17,7 +17,7 @@ import Echart from "@/components/echart/Echart.vue";
   components: { Echart }
 })
 export default class ClassifyChart extends Vue {
-  imgUrl = require("../../../../assets/earth.gif");
+  imgUrl = require("@/assets/earth.gif");
   option = {
     radar: {
       center: ["50%", "52%"],
