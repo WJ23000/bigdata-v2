@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import FullScreen from "../views/full-screen/Index.vue";
+import FullScreen from "@/views/full-screen/Index.vue";
 
 Vue.use(VueRouter);
 
