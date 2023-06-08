@@ -19,37 +19,37 @@ export default class Map extends Vue {
   list = [
     {
       name: "图片转化流量",
-      img: require("../../../../assets/card-img1.png"),
+      img: require("@/assets/card-img1.png"),
       count: 300,
       unit: "张/小时"
     },
     {
       name: "视频转化流量",
-      img: require("../../../../assets/card-img2.png"),
+      img: require("@/assets/card-img2.png"),
       count: 160,
       unit: "个/小时"
     },
     {
       name: "新闻推送流量",
-      img: require("../../../../assets/card-img3.png"),
+      img: require("@/assets/card-img3.png"),
       count: 330,
       unit: "篇/小时"
     },
     {
       name: "避震知识推送",
-      img: require("../../../../assets/card-img4.png"),
+      img: require("@/assets/card-img4.png"),
       count: 270,
       unit: "条/小时"
     },
     {
       name: "灾况播报推送",
-      img: require("../../../../assets/card-img5.png"),
+      img: require("@/assets/card-img5.png"),
       count: 89,
       unit: "条/小时"
     },
     {
       name: "通信推送流量",
-      img: require("../../../../assets/card-img6.png"),
+      img: require("@/assets/card-img6.png"),
       count: 7.1,
       unit: "G/小时"
     }

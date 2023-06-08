@@ -27,10 +27,7 @@
     "index.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "common/**/*.vue",
-    "common/**/*.ts",
-    "common/**/*.tsx"
+    "src/**/*.vue"
   ],
   "exclude": ["node_modules"]
 }

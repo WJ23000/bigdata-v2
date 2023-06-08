@@ -1,9 +1,9 @@
 <template lang="pug">
-  div.left-index
-    WarnInfo.mb2 
-    ClassifyChart.mb2
-    TerrainChart.mb2
-    IntensityChart
+div.left-index
+  WarnInfo.mb2 
+  ClassifyChart.mb2
+  TerrainChart.mb2
+  IntensityChart
 </template>
 
 <script lang="ts">
