@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Echart from "@/scale/src/components/echart/Echart.vue";
+import Echart from "@/components/echart/Echart.vue";
 
 @Component({
   components: { Echart }

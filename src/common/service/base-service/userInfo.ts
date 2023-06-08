@@ -1,5 +1,5 @@
-import { getStorage, removeStorage, setStorage } from "@common/utils/storage";
-import { STORAGE_CONFIG } from "@common/model";
+import { getStorage, removeStorage, setStorage } from "@/common/utils/storage";
+import { STORAGE_CONFIG } from "@/common/model";
 export default class GlobalUserInfoService {
   // 静态变量需要主动改变值才会更新
   static userInfo;
