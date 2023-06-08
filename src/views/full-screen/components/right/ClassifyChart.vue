@@ -18,7 +18,7 @@ import getSizeByScreen from "@/common/utils/rem-adjust";
   components: { Echart }
 })
 export default class ClassifyChart extends Vue {
-  imgUrl = require("../../../../assets/earth.gif");
+  imgUrl = require("@/assets/earth.gif");
   option = {
     radar: {
       center: ["50%", "52%"],
