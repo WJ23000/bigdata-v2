@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import FullScreen from "../views/full-screen/Index.vue";
+import SpliceScreen from "../views/splice-screen/Index.vue";
 
 Vue.use(VueRouter);
 
@@ -9,6 +10,12 @@ const routes: Array<RouteConfig> = [
     path: "/",
     name: "fullScreen",
     component: FullScreen,
+    children: []
+  },
+  {
+    path: "/splice-screen",
+    name: "spliceScreen",
+    component: SpliceScreen,
     children: []
   }
 ];

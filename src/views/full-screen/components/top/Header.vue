@@ -1,15 +1,15 @@
 <template lang="pug">
-div.header.flex.justify-center.align-start
-  dv-decoration-10.flex1(style="height:5px;")
-  dv-decoration-8(:color="['#568aea', '#000000']", style="width:240px; height:50px;")
-  div.title.white 
-    div.tc 大数据可视化平台
-    dv-decoration-6.decoration-6
-  dv-decoration-8(:color="['#568aea', '#000000']", :reverse="true", style="width:240px; height:50px;")
-  dv-decoration-10.decoration10-reverse.flex1(style="height:5px;")
-  div.date-time.white 
-    span {{ dataTime }} 
-    span.ml2 {{ week }}
+  div.header.flex.justify-center.align-start
+    dv-decoration-10.flex1(style="height:5px;")
+    dv-decoration-8(:color="['#568aea', '#000000']", style="width:240px; height:50px;")
+    div.title.white 
+      div.tc 大数据可视化平台
+      dv-decoration-6.decoration-6
+    dv-decoration-8(:color="['#568aea', '#000000']", :reverse="true", style="width:240px; height:50px;")
+    dv-decoration-10.decoration10-reverse.flex1(style="height:5px;")
+    div.date-time.white 
+      span {{ dataTime }} 
+      span.ml2 {{ week }}
 </template>
 
 <script lang="ts">

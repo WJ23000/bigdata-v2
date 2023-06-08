@@ -1,6 +1,6 @@
 import Vue from "vue";
 import request from "axios";
-import { GlobalUserInfoService } from "../service";
+import { GlobalUserInfoService } from "@common/service";
 
 const axios = request.create();
 axios.interceptors.request.use(

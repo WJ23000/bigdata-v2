@@ -1,17 +1,16 @@
 <template lang="pug">
-div.magnetic-field
-  dv-border-box-13.container 
-    div.flex
-      i.fa.mr2(class="fa-bar-chart")
-      div.title.mr2.f2 磁场活跃强度(A/m)
-      dv-decoration-1.decoration-icon
-    Echart.scroll-board(:option="option", type="intensity-chart")
+  div.magnetic-field
+    dv-border-box-13.container 
+      div.flex
+        i.fa.mr2(class="fa-bar-chart")
+        div.title.mr2.f2 磁场活跃强度(A/m)
+        dv-decoration-1.decoration-icon
+      Echart.scroll-board(:option="option", type="intensity-chart")
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Echart from "@/components/echart/Echart.vue";
-import getSizeByScreen from "@/common/utils/rem-adjust";
+import Echart from "@/scale/src/components/echart/Echart.vue";
 
 @Component({
   components: { Echart }
@@ -37,7 +36,7 @@ export default class IntensityChart extends Vue {
         color: "#ffffff",
         formatter: "{value}",
         show: true,
-        fontSize: getSizeByScreen(14)
+        fontSize: 14
       },
       splitLine: { show: false },
       axisLine: {
@@ -52,7 +51,7 @@ export default class IntensityChart extends Vue {
         formatter: val => {
           return `${val}`;
         },
-        fontSize: getSizeByScreen(14)
+        fontSize: 14
       },
       data: ["亚洲", "非洲", "北美洲", "南美洲", "南极洲", "欧洲", "大洋洲"]
     },

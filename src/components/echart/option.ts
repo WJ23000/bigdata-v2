@@ -1,4 +1,4 @@
-import getSizeByScreen from "@/common/utils/rem-adjust";
+import getSizeByScreen from "@/common/utils/chartRem";
 
 function resizeOption(option, type) {
   switch (type) {

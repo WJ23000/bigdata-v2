@@ -5,7 +5,6 @@ import store from "./store";
 import dataV from "@jiaminghi/data-view";
 import "font-awesome/css/font-awesome.min.css";
 import request from "@/common/utils/request";
-import "amfe-flexible";
 import "./styles/common.styl";
 import { BASE_API, HOST } from "../public/config/index";
 

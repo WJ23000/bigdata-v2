@@ -1,10 +1,10 @@
 <template lang="pug">
-div.ranking
-  dv-border-box-13.container
-    div.mb2.flex
-      i.fa.mr2(class="fa-navicon")
-      div.title.f2 地震概率分析
-    dv-scroll-board.scroll-board(:config="config") 
+  div.ranking
+    dv-border-box-13.container
+      div.mb2.flex
+        i.fa.mr2(class="fa-navicon")
+        div.title.f2 地震概率分析
+      dv-scroll-board.scroll-board(:config="config") 
 </template>
 
 <script lang="ts">

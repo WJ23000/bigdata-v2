@@ -1,4 +1,4 @@
-import debounce from "../../utils/debounce";
+import debounce from "@common/utils/debounce";
 
 export class GlobalProperty {
   clientHeight: any = 0;
