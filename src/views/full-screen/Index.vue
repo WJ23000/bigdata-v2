@@ -1,12 +1,12 @@
 <template lang="pug">
-  div.full-screen
-    ScaleBox(@scaleChange="scaleChange")
-      template
-        Header.mt1
-        div.mt2.flex.align-start
-          LeftIndex
-          CenterIndex.ml2
-          RightIndex.ml2
+div.full-screen
+  ScaleBox(@scaleChange="scaleChange")
+    template
+      Header.mt1
+      div.mt2.flex.align-start
+        LeftIndex
+        CenterIndex.ml2
+        RightIndex.ml2
 </template>
 
 <script lang="ts">

@@ -1,12 +1,12 @@
 <template lang="pug">
-  div.system
-    dv-border-box-12.container 
-      div.flex
-        i.fa.mr2(class="fa-connectdevelop")
-        div.title.mr2.f2 宏观检测分类
-      div.chart-content.flex
-        Echart.chart(:option="option", type="classify-chart")
-        img.img.ml4(:src="imgUrl")
+div.system
+  dv-border-box-12.container 
+    div.flex
+      i.fa.mr2(class="fa-connectdevelop")
+      div.title.mr2.f2 宏观检测分类
+    div.chart-content.flex
+      Echart.chart(:option="option", type="classify-chart")
+      img.img.ml4(:src="imgUrl")
 </template>
 
 <script lang="ts">

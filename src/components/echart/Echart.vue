@@ -1,6 +1,6 @@
 <template lang="pug">
-  div.echart-container.w100.h100(
-    ref="echart")
+div.echart-container.w100.h100(
+  ref="echart")
 </template>
 
 <script lang="ts">

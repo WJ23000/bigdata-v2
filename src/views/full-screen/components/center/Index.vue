@@ -1,7 +1,7 @@
 <template lang="pug">
-  div.center-index
-    Map.mb3
-    CardList
+div.center-index
+  Map.mb3
+  CardList
 </template>
 
 <script lang="ts">

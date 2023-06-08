@@ -1,11 +1,11 @@
 <template lang="pug">
-  div.area
-    dv-border-box-12.container 
-      div.flex
-        i.fa.mr2(class="fa-pie-chart")
-        div.title.mr2.f2 地震分布区域
-        dv-decoration-3.decoration-icon
-      Echart(:option="option", type="region-chart")
+div.area
+  dv-border-box-12.container 
+    div.flex
+      i.fa.mr2(class="fa-pie-chart")
+      div.title.mr2.f2 地震分布区域
+      dv-decoration-3.decoration-icon
+    Echart(:option="option", type="region-chart")
 </template>
 
 <script lang="ts">

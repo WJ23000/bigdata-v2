@@ -1,11 +1,11 @@
 <template lang="pug">
-  div.magnetic-field
-    dv-border-box-13.container 
-      div.flex
-        i.fa.mr2(class="fa-bar-chart")
-        div.title.mr2.f2 磁场活跃强度(A/m)
-        dv-decoration-1.decoration-icon
-      Echart.scroll-board(:option="option", type="intensity-chart")
+div.magnetic-field
+  dv-border-box-13.container 
+    div.flex
+      i.fa.mr2(class="fa-bar-chart")
+      div.title.mr2.f2 磁场活跃强度(A/m)
+      dv-decoration-1.decoration-icon
+    Echart.scroll-board(:option="option", type="intensity-chart")
 </template>
 
 <script lang="ts">

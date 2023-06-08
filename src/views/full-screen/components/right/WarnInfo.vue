@@ -1,16 +1,16 @@
 <template lang="pug">
-  div.warn
-    dv-border-box-8.container
-      div.flex.row.justify-around
-        div.item.flex.column
-          div.mb1.f3 本日预警数量
-          dv-digital-flop.digital-flop(:config="config1")
-        div.item.flex.column
-          div.mb1.f3 本日预警占比
-          dv-digital-flop.digital-flop(:config="config2")
-        div.item.flex.column
-          div.mb1.f3 历史预警总数
-          dv-digital-flop.digital-flop(:config="config3")
+div.warn
+  dv-border-box-8.container
+    div.flex.row.justify-around
+      div.item.flex.column
+        div.mb1.f3 本日预警数量
+        dv-digital-flop.digital-flop(:config="config1")
+      div.item.flex.column
+        div.mb1.f3 本日预警占比
+        dv-digital-flop.digital-flop(:config="config2")
+      div.item.flex.column
+        div.mb1.f3 历史预警总数
+        dv-digital-flop.digital-flop(:config="config3")
 </template>
 
 <script lang="ts">

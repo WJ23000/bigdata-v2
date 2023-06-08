@@ -1,10 +1,10 @@
 <template lang="pug">
-  div.capsule
-    dv-border-box-12.container 
-      div.flex
-        i.fa.mr2(class="fa-align-left")
-        div.title.mr2.f2 地形分布占比
-      dv-capsule-chart.capsule-chart(:config="config") 
+div.capsule
+  dv-border-box-12.container 
+    div.flex
+      i.fa.mr2(class="fa-align-left")
+      div.title.mr2.f2 地形分布占比
+    dv-capsule-chart.capsule-chart(:config="config") 
 </template>
 
 <script lang="ts">

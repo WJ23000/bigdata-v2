@@ -1,6 +1,6 @@
 <template lang="pug">
-  div.map
-    div.container(id="map-container")
+div.map
+  div.container(id="map-container")
 </template>
 
 <script lang="ts">

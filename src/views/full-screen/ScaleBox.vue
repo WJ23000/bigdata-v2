@@ -1,8 +1,8 @@
 <template lang="pug">
-  div.scale-box(
-    ref="scaleBoxRef",
-    :style="style")
-    slot
+div.scale-box(
+  ref="scaleBoxRef",
+  :style="style")
+  slot
 </template>
 
 <script lang="ts">

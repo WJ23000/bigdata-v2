@@ -1,7 +1,7 @@
 <template lang="pug">
-  div.left-index
-    RegionChart.mb2
-    Ranking
+div.left-index
+  RegionChart.mb2
+  Ranking
 </template>
 
 <script lang="ts">
