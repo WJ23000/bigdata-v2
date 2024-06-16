@@ -8,7 +8,7 @@ import { Component, Vue } from "vue-property-decorator";
 import AMapLoader from "@amap/amap-jsapi-loader";
 
 (window as any)._AMapSecurityConfig = {
-  securityJsCode: "8cf7c33262a64ac02b346785b6837139" // 安全密钥
+  securityJsCode: "6bcc31e82be738eeb25e31a939a20157" // 安全密钥
 };
 
 @Component({
@@ -23,7 +23,7 @@ export default class Map extends Vue {
   }
   init() {
     AMapLoader.load({
-      key: "4986aff6097aefdba4e174a1f1fd39e7", // 申请好的Web端开发者Key，首次调用 load 时必填
+      key: "2ddbcb5885814300019680a3105d98aa", // 申请好的Web端开发者Key，首次调用 load 时必填
       version: "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
       plugins: ["AMap.MapType", "AMap.CitySearch"] // 需要使用的的插件列表，如比例尺'AMap.Scale'等
     })
