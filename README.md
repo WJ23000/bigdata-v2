@@ -1,5 +1,10 @@
 # bigdata-v2
 
+## Node.js版本
+```
+16.18.0
+```
+
 ## Project setup(npm6.x版本后加上--legacy-peer-deps)
 ```
 npm install --legacy-peer-deps
