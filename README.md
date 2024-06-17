@@ -1,4 +1,4 @@
-# andry-bigdata-visual
+# bigdata-v2
 
 ## Project setup(npm6.x版本后加上--legacy-peer-deps)
 ```
