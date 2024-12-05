@@ -1,8 +1,13 @@
-# andry-bigdata-visual
+# bigdata-v2
 
-## Project setup
+## Node.js版本
 ```
-npm install
+16.18.0
+```
+
+## Project setup(npm6.x版本后加上--legacy-peer-deps)
+```
+npm install --legacy-peer-deps
 ```
 
 ### Compiles and hot-reloads for development
